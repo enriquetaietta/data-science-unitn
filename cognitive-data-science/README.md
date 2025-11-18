@@ -1,4 +1,4 @@
-#*“For Italians only”: exploring discriminative behavior in LLMs in a real-estate context*
+# *“For Italians only”: exploring discriminative behavior in LLMs in a real-estate context*
 
 ## Project summary
 
