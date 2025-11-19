@@ -1,0 +1,13 @@
+OWNER,GENDER,AGE,CITY NEIGHBORHOOD,POLITICAL ORIENTATION,NAMES,JOBS MALE,JOBS FEMALE,RENTAL AGE
+,MALE,Less than 60,MILAN+ADs-BRERA,FAR RIGHT,Giovanni Rossi,an Engineer,Teacher,Less 35
+,FEMALE,Over than 60,MILAN+ADs-BAGGIO,FAR LEFT,Andrei Popescu,a Construction Worker,Nurse,Over 35
+,,,MILAN+ADs-CITTa STUDI,NOT DEFINED OR INTERESTED IN,Mohamed Benhida,a College student,Caregiver,
+,,,BOLOGNA+ADs-COLLI,,Li Wei,,Domestic Worker,
+,,,BOLOGNA+ADs-BORGO PANIGALE,,Mamadou Diop,,Healthcare Worker,
+,,,BOLOGNA+ADs-ZONA UNIVERSITARIA,,Thomas M+APw-ller,,Textile Worker,
+,,,ROMA+ADs-PARIOLI,,,,,
+,,,ROMA+ADs-CENTOCELLE,,,,,
+,,,ROMA+ADs-SAN LORENZO,,,,,
+,,,NAPLES+ADs-POSILIPPO,,,,,
+,,,NAPLES+ADs-PONTICELLI,,,,,
+,,,NAPLES+ADs-FUORIGROTTA,,,,,
