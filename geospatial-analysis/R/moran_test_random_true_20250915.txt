@@ -1,0 +1,13 @@
+
+	Moran I test under randomisation
+
+data:  nations$X2025.09.15  
+weights: nations_nb.listw  
+n reduced by no-neighbour observations  
+
+Moran I statistic standard deviate = 0.19248, p-value = 0.4237
+alternative hypothesis: greater
+sample estimates:
+Moran I statistic       Expectation          Variance 
+      -0.01035328       -0.04761905        0.03748308 
+

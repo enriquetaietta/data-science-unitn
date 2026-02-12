@@ -1,0 +1,10 @@
+
+	Monte-Carlo simulation of Geary C
+
+data:  nations$X2025.09.15 - nations$X2023.01.15 
+weights: nations_nb.listw  
+number of simulations + 1: 1000 
+
+statistic = 0.51525, observed rank = 38, p-value = 0.038
+alternative hypothesis: greater
+

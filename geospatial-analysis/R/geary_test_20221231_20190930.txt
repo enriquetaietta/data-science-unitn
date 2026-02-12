@@ -1,0 +1,13 @@
+
+	Geary C test under randomisation
+
+data:  nations$X2022.12.31 - nations$X2019.09.30 
+weights: nations_nb.listw  
+n reduced by no-neighbour observations 
+
+Geary C statistic standard deviate = 1.7125, p-value = 0.0434
+alternative hypothesis: Expectation greater than statistic
+sample estimates:
+Geary C statistic       Expectation          Variance 
+       0.63226885        1.00000000        0.04610828 
+

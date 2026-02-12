@@ -1,0 +1,10 @@
+
+	Monte-Carlo simulation of Moran I
+
+data:  nations$X2025.09.15 
+weights: nations_nb.listw  
+number of simulations + 1: 1000 
+
+statistic = -0.010353, observed rank = 611, p-value = 0.389
+alternative hypothesis: greater
+
