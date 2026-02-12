@@ -8,19 +8,15 @@ library(leaflet)
 #########################################################################
 ### 1. Caricamento Dataset e verifica geometrie                       ###
 #########################################################################
+setwd("...")
 
-# Imposto la working directory (dove si trova il CSV)
-setwd("/Users/chiaramarras/Downloads/R_session")
-
-# Leggo il CSV
 nations_raw <- read.csv("liberiamoli-tutti-nazionalita-totali-wide-plus.csv")
 nations_raw$geometry <- as.character(nations_raw$geometry)
 # devo togliere 'others'
 nations_raw <- nations_raw[!is.na(nations_raw$geometry) & nations_raw$geometry != "", ]
 
 
-# Converto in oggetto sf
-# Assumendo che la colonna 'geometry' sia in formato WKT (Well-Known Text)
+# -> Converto in oggetto sf
 nations <- st_as_sf(nations_raw, wkt = "geometry", crs = 4326)
 
 # Controllo le prime righe
@@ -29,13 +25,10 @@ head(nations)
 # devo vedere se ci sono geometrie 'sporche'
 library(sf)
 
-# 1. Verifica validità
-st_is_valid(nations)  # TRUE/FALSE per ogni poligono
-# problemi sull'egitto
-# 2. Ripara geometrie non valide
-nations <- st_make_valid(nations)
 
-# 3. Controlla ancora
+st_is_valid(nations)  # TRUE/FALSE per ogni poligono
+# -> problemi sull'egitto (?)
+nations <- st_make_valid(nations)
 any(!st_is_valid(nations))  # deve restituire FALSE
 
 
