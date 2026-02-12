@@ -48,9 +48,9 @@ The repository includes four main Jupyter notebooks:
 * **Three notebooks**, each dedicated to one research question (RQ1, RQ2, RQ3)
 * **One notebook** specifically for preprocessing and preparing the standoff dataset
 
-- R -> Directory with code, data and images produced with statistical analysis
+- R -> Directory with code, analysis and images produced with R
 - Maps -> Directory with the maps generated
-- Data -> Directory with the part of the datasets used
+- Data -> Directory with part of the datasets used
 - Report -> Directory with the pdf of the report
 
 ### Exported Maps
